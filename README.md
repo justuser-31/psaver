@@ -23,6 +23,7 @@ Then run:
 2. First-run to allow run command without sudo:
 * `./psaver`
 * You will see: `Allow cpupower and chcpu without password... Please, enter password.`
+* NOTE: If you screwed up - delete `~/.config/psaver/` path.
 
 3. Change settings
 * Inspect cpu freq: `cpupower frequency-info`

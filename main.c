@@ -43,6 +43,9 @@ void get_state(
 int main(
 	int argc, char *argv[]
 ) {
+	// Load timeout from config
+	load_config();
+
 	//
 	// Check if installed aready
 	//
@@ -90,9 +93,6 @@ int main(
 		
 		return 0;
 	}
-
-	// Load timeout from config
-	load_config();
 
 	// How much device has screen off
 	// Turn on screen - reset timer
